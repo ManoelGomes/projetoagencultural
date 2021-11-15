@@ -5,7 +5,7 @@ import PageMenu from '../../components/MenuLateral';
 import PageFooter from '../../components/Footer/footer';
 //import lixeira from '../../assets/LogoMatheus/Icons/lixeira.png';
 import api from '../../services/api';
-import Form from 'react-bootstrap/Form';
+// import Form from 'react-bootstrap/Form';
 import PageTitulo from '../../components/Titulo';
 //import Axios from 'axios';
 
@@ -26,18 +26,18 @@ function handleCategoria({contentType}:any, {data}:any, {setResponse}:any){
 
 function PageCategorias(){
 
-const [nome, setCategoria] = useState('');
-const [descricao, setDescricao] = useState('');
-const [imagem, setImagem] = useState<any>();
+// const [nome, setCategoria] = useState('');
+// const [descricao, setDescricao] = useState('');
+// const [imagem, setImagem] = useState<any>();
 
-function upload(){
-    const formData = new FormData();
-    formData.append("nome", nome);
-    formData.append("descricao", descricao);
-    formData.append("imagem", imagem);
+// function upload(){
+//     const formData = new FormData();
+//     formData.append("nome", nome);
+//     formData.append("descricao", descricao);
+//     formData.append("imagem", imagem);
 
-    handleCategoria("multipart/form-data", formData, (msg:any)=> console.log(msg));
-}
+//     handleCategoria("multipart/form-data", formData, (msg:any)=> console.log(msg));
+// }
 return(
     <div >
         <div>

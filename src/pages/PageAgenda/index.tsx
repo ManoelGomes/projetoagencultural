@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Link, NavLink} from 'react-router-dom';
+import { NavLink} from 'react-router-dom';
 import teste from '../../assets/LogoMatheus/AgendaCultural.png'
 import './agenda.css';
 import '../../assets/styles/global.css';
@@ -44,7 +44,7 @@ export default class PageAgenda extends Component{
                       {Array.from({ length: 3 }).map((_, idx) => (
                         <Col>
                       <div className="card card_m card_border" style={{width: '20rem'}}>
-                          <img className="card-img-top card_border_img" src={teste} alt="Card image cap"/>
+                          <img className="card-img-top card_border_img" src={teste}/>
                             <div className="card-body">
                                 <h5 className="card-title">Titulo</h5>
                                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>

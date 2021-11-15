@@ -1,4 +1,4 @@
-import React,{FormEvent, useState}from 'react';
+import React,{ useState}from 'react';
 //import {Formik} from 'formik';
 import { NavLink, useHistory} from 'react-router-dom';
 //import { TextField } from '../TextField';
@@ -9,7 +9,7 @@ import Form from 'react-bootstrap/Form';
 //import InputGroup from 'react-bootstrap/InputGroup';
 //import Button from 'react-bootstrap/Button';
 //import FormControl from 'react-bootstrap/FormControl';
-import api from '../../services/api';
+// import api from '../../services/api';
 import './formulario.css';
 
 export const LoginUsuario = () =>{

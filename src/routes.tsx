@@ -1,5 +1,5 @@
 import React from 'react'
-import{BrowserRouter, Redirect, Route, Switch} from 'react-router-dom'
+import{BrowserRouter, Route, Switch} from 'react-router-dom'
 import Login from './pages/Login'
 import Organizador from './pages/LoginOrganizador'
 import PageCategorias from './pages/PageCategorias'

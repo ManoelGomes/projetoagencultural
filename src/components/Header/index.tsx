@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useEffect } from 'react'
 import imgta from '../../assets/LogoMatheus/LogoMatheus.png';
 import imguser from '../../assets/LogoMatheus/Icons/user_icon2.svg';
 import './header.css'
