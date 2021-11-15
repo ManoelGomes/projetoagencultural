@@ -1,6 +1,6 @@
 
 <h1 align="center">
-    <img alt="NextLevelWeek" title="#NextLevelWeek" src="../src/assets/../../agenda-cultural-frontend/src/assets/LogoMatheus/logoAgendaCultural.png" />
+    <img alt="agenda Cultural" title="Agenda Cultural" src="../src/assets/../../agenda-cultural-frontend/src/assets/LogoMatheus/logoAgendaCultural.png" />
 </h1>
 
 <h4 align="center"> 
