@@ -11,7 +11,7 @@ import PageFooter from '../../components/Footer/footer';
 //import { maxHeaderSize } from 'http';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col'
-import axios from 'axios';
+// import axios from 'axios';
 import PageTitulo from '../../components/Titulo';
 export default class PageAgenda extends Component{
     
@@ -44,7 +44,7 @@ export default class PageAgenda extends Component{
                       {Array.from({ length: 3 }).map((_, idx) => (
                         <Col>
                       <div className="card card_m card_border" style={{width: '20rem'}}>
-                          <img className="card-img-top card_border_img" src={teste}/>
+                          <img className="card-img-top card_border_img" src={teste} alt=""/>
                             <div className="card-body">
                                 <h5 className="card-title">Titulo</h5>
                                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>

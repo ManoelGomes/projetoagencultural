@@ -39,7 +39,7 @@ export const Registro = () =>{
               if(endereco === ""){
                 alert('campo endereço é obrigatório')
               }
-              if(email =="" || email.indexOf('@') == -1 || email.indexOf('.')  == -1 ){
+              if(email === "" || email.indexOf('@') === -1 || email.indexOf('.')  === -1 ){
                 alert('Email invalido')
               }  
               if(senha === "" || senha2 === ""){
