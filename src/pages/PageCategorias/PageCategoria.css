@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+*{
+    margin: 0;
+    padding: 0; 
+}
+body{
+    background-color: #f7f7f7;
+}
+.main_evento{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    padding-bottom: 200px;
+}
+@media(max-width:1150px){
+    .main_evento{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+.main_91_titulo{
+    max-width: 1200px;
+    margin: 0 auto 30px;
+    font-family: "Karla", sans-serif;
+    font-style: italic;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    background-color: white;
+    padding: 20px;
+    color: rgb(50, 143, 248);
+    font-size: 40px;
+    border:1px solid rgb(238, 232, 232);
+    box-shadow: 1px 1px 2px 2px rgb(206, 199, 199);
+}
+@media(max-width:800px){
+    .main_91_titulo{
+        font-size: 30px;
+        text-align: center;
+    }
+}
+.main_h2_titulo{
+    font-family: "Karla", sans-serif;
+    font-style: italic;
+    margin-top: 90px;
+    background-color: #023859;
+    background-image: linear-gradient(#023859,#02456c);
+    padding: 20px;
+    color: white;
+    font-size: 40px;
+}
+@media(max-width:800px){
+    .main_h2_titulo{
+        margin-top: 200px;
+        font-size: 30px;
+        text-align: center;
+    }
+}
+.main_textarea{
+    border-radius: 5px;
+    margin-left: 90px;
+    width: 700px;
+    height: 5rem;
+    min-height: 5rem;
+    margin-top: 15px; 
+    border: 1px solid rgb(212, 217, 221);
+    background-color: rgb(244, 245, 246);
+    resize: vertical;
+    justify-content: justify;
+}
+.main_select{
+    border-radius: 5px;
+    width: 200px;
+    display: row;
+    padding: 10px;
+    border: 1px solid rgb(212, 217, 221);
+    background-color: white;
+}
+.main_img{
+    width: 30px;
+}
+.main_file{
+    display: none;
+}
+.main_file_estilizado{
+    background-color: #0b74bb;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100px;
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 40px 20px;
+    margin-left: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.main_file_estilizado2{
+    cursor: pointer;
+    margin-left: 25px;
+    width: 30vw;
+    font-family: 'Courier New', Courier, monospace;
+}
+@media(max-width:800px){
+    .main_file_estilizado2{
+        width: 80vw;
+    }
+}
+.btn_even2{
+    padding: 10px 25px 10px 25px;
+    background-color: #000;
+    border-radius: 4px;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 20px;
+    color: #fff;
+    float: right;
+    margin: 10px 15px; 
+}
+@media(max-width:800px){
+.btn_even2{
+    width: 92%;
+    margin-right: 18px; 
+    }   
+}
+.btn_even2:hover{
+    background-color: white;
+    color:black;
+}
+.form_input2{
+    width: 90%;
+    margin-left: 25px;
+}
+.form_input3{
+    width: 90%;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+@media(max-width:900px){
+    .form_input3{
+        width: 50%;
+        margin-left: 30px; 
+        margin-right: -11px;
+        margin-bottom: 10px;
+        } 
+    .btn_evento3{
+        margin-right: 0px;  
+        margin-left: 0;
+        margin-top: 30px;
+        border-radius: 4px;
+        font-size: 12px;
+        height: 35px;
+        }
+    .btn_evento4{
+        margin-left: 1px;
+        margin-top: 30px;
+        border-radius: 4px;
+        font-size: 12px;
+        height: 35px;
+        }    
+}
+.form_label_teste{
+    margin-left: 25px;
+    margin-bottom: 1px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 10px;
+    color:#0b74bb;
+}
+.form_label2{
+    margin-left: 0px;
+}
+.form_label_sec{
+    width: 68%;
+    margin-right: auto;
+}
+@media(max-width:800px){
+    .form_label_sec{
+        width: 90%;
+        margin-left: 25px;
+    }
+    .form_label2{
+        margin-left: 25px;
+    }
+}
+.btn_evento3{
+    margin-left: 15px;  
+    margin-top: 30px;
+    border-radius: 4px;
+    font-size: 12px;
+    height: 35px;
+}
+.btn_evento3:hover{
+    background-color: white;
+    color: black;
+    font-style: oblique;
+}
+.btn_evento4{
+    margin-left: 5px;
+    margin-top: 30px;
+    border-radius: 4px;
+    font-size: 12px;
+    height: 35px;
+}
+.btn_evento4:hover{
+    background-color: white;
+    color: black;
+    font-style: oblique;
+}
+
+
+
+
+

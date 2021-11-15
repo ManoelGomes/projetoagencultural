@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+body{
+    background-color: rgba(255, 255, 255, 0.986);
+}
+.main_evento{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.986);
+}
+@media(max-width:1250px){
+    .main_evento{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+.main_31_titulo{
+    max-width: 1200px;
+    margin: 0 auto 30px;
+    font-family: "Karla", sans-serif;
+    font-style: italic;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    background-color: white;
+    padding: 20px;
+    color: rgb(50, 143, 248);
+    font-size: 40px;
+    border:1px solid rgb(238, 232, 232);
+    box-shadow: 1px 1px 2px 2px rgb(206, 199, 199);
+}
+@media(max-width:800px){
+    .main_h1_titulo{
+        font-size: 30px;
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+.main_textarea{
+    border-radius: 5px;
+    margin-left: 90px;
+    width: 700px;
+    height: 5rem;
+    min-height: 5rem;
+    margin-top: 15px; 
+    border: 1px solid rgb(212, 217, 221);
+    background-color: rgb(244, 245, 246);
+    resize: vertical;
+    justify-content: justify;
+}
+.main_select{
+    border-radius: 5px;
+    width: 200px;
+    display: row;
+    padding: 10px;
+    border: 1px solid rgb(212, 217, 221);
+    background-color: white;
+}
+.main_img{
+    width: 30px;
+}
+.main_file{
+    display: none;
+}
+.main_file_estilizado{
+    background-color: #0b74bb;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 40px 20px;
+    margin-left: 25px;
+}
+.btn_event{
+    padding: 10px 25px 10px 25px;
+    background-color: #000;
+    border-radius: 4px;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 20px;
+    color: #fff;
+    float: right;
+    margin: 10px 15px; 
+}
+@media(max-width:800px){
+    .btn_event{
+        width: 92%;
+        margin-left: 18px; 
+        } 
+}
+.btn_event:hover{
+    background-color: white;
+    color:black;
+}
+.form_input{
+    width: 90%;
+    margin-left: 25px;
+}
+.form_label{
+    margin-left: 25px;
+}
+.form_label2{
+    margin-left: 0px;
+}
+.form_label_sec{
+    width: 68%;
+    margin-right: auto;
+}
+@media(max-width:800px){
+    .form_label_sec{
+        width: 90%;
+        margin-left: 25px;
+    }
+    .form_label2{
+        margin-left: 25px;
+    }
+}
+

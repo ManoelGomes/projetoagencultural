@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
+.aling{
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgba(237, 237, 241, 0.966); */
+  background-image: linear-gradient(to right bottom, #2512f4, #201bd3, #201fb3, #211f93, #211e74, #24216d, #272467, #292660, #302e70, #383780, #3f4090, #4649a1);
+  padding-top: 100px;
+  padding-bottom: 50px;
+  border-radius: 27px;
+  box-shadow: 0 10px 30px 0 rgba(178, 205, 218, 0.692);
+}
+.login_titulo{
+  font-family: "Karla", sans-serif;
+  /* margin-top: -140px; */
+  font-size: 30px;
+}
+.login_registro{
+  font-family: "Karla", sans-serif;
+  /* margin-top: -140px; */
+  font-size: 20px;
+  color: white;
+}
+.login_fundo{
+  background-image: linear-gradient(to right bottom, #2512f4, #201bd3, #201fb3, #211f93, #211e74, #24216d, #272467, #292660, #302e70, #383780, #3f4090, #4649a1);
+  /* background-color: aquamarine; */
+}
+.imgLogo{
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+  margin-left: 10px;
+  /* padding-right: 1px; */
+    -o-object-fit: cover;
+     object-fit: cover; 
+}
+@media(max-width:900px){
+  .login_registro{
+    margin-left: 10px;
+  }
+}
+
+
+
