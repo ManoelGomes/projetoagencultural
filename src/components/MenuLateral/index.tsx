@@ -40,7 +40,8 @@ function PageMenu(){
               <Link to="/organizador"><li className="nav-item menu_color4"><img src={imgOrganizagor} alt="inicio" className="menu_img "/>Organizador</li></Link> 
               </Nav>
             <Form inline>
-              <Button variant="outline" className="header_top_button" type="submit"><NavLink to="/"/>Sair</Button>
+              <NavLink to="/" className="header_top_button"></NavLink>
+              {/* <Button variant="outline" className="header_top_button" type="submit">Sair</Button> */}
             </Form>
             </Navbar.Collapse>
           </Navbar>
