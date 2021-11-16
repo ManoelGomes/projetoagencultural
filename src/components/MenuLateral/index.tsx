@@ -1,6 +1,6 @@
 //import { clear } from 'console';
 import React from 'react'
-import {Link} from 'react-router-dom'
+import {Link, NavLink} from 'react-router-dom'
 import imgHome from '../../assets/LogoMatheus/Icons/icons8-casa.svg'
 import imgEvento from '../../assets/LogoMatheus/Icons/eventos_icon.png'
 import imgCategoria from '../../assets/LogoMatheus/Icons/categoria_icon.png'
@@ -27,6 +27,9 @@ function PageMenu(){
     //             alert('Ocorreu um erro ao sair!');
     //         })
     //     }
+    function sair(){
+      <NavLink to="/"></NavLink>
+    }
     return(
         <div>
           <Navbar id="menu"  expand="lg" className="menu_l Navbar">
@@ -38,8 +41,8 @@ function PageMenu(){
               <Link to="/Categorias"><li className="nav-item menu_color3"><img src={imgCategoria} alt="inicio" className="menu_img "/>Categorias</li></Link>
               <Link to="/organizador"><li className="nav-item menu_color4"><img src={imgOrganizagor} alt="inicio" className="menu_img "/>Organizador</li></Link> 
               </Nav>
-            <Form inline>
-              <Button variant="outline" className="header_top_button">Sair</Button>
+            <Form inline onSubmit={sair}>
+              <Button variant="outline" className="header_top_button" type="submit">Sair</Button>
             </Form>
             </Navbar.Collapse>
           </Navbar>
