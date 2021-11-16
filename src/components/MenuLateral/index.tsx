@@ -1,6 +1,6 @@
 //import { clear } from 'console';
 import React from 'react'
-import {Link, NavLink} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 import imgHome from '../../assets/LogoMatheus/Icons/icons8-casa.svg'
 import imgEvento from '../../assets/LogoMatheus/Icons/eventos_icon.png'
 import imgCategoria from '../../assets/LogoMatheus/Icons/categoria_icon.png'
@@ -40,8 +40,7 @@ function PageMenu(){
               <Link to="/organizador"><li className="nav-item menu_color4"><img src={imgOrganizagor} alt="inicio" className="menu_img "/>Organizador</li></Link> 
               </Nav>
             <Form inline>
-              <NavLink to="/" className="header_top_button"></NavLink>
-              {/* <Button variant="outline" className="header_top_button" type="submit">Sair</Button> */}
+              <Button variant="outline" className="header_top_button" type="submit">Sair</Button>
             </Form>
             </Navbar.Collapse>
           </Navbar>
