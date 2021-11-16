@@ -27,9 +27,7 @@ function PageMenu(){
     //             alert('Ocorreu um erro ao sair!');
     //         })
     //     }
-    function sair(){
-      <NavLink to="/"></NavLink>
-    }
+  
     return(
         <div>
           <Navbar id="menu"  expand="lg" className="menu_l Navbar">
@@ -41,8 +39,8 @@ function PageMenu(){
               <Link to="/Categorias"><li className="nav-item menu_color3"><img src={imgCategoria} alt="inicio" className="menu_img "/>Categorias</li></Link>
               <Link to="/organizador"><li className="nav-item menu_color4"><img src={imgOrganizagor} alt="inicio" className="menu_img "/>Organizador</li></Link> 
               </Nav>
-            <Form inline onSubmit={sair}>
-              <Button variant="outline" className="header_top_button" type="submit">Sair</Button>
+            <Form inline>
+              <Button variant="outline" className="header_top_button" type="submit"><NavLink to="/"/>Sair</Button>
             </Form>
             </Navbar.Collapse>
           </Navbar>
