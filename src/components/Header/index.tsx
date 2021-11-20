@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react'
-import imgta from '../../assets/LogoMatheus/LogoMatheus.png';
-import imguser from '../../assets/LogoMatheus/Icons/user_icon2.svg';
+import React/*, { useState, useEffect }*/ from 'react'
+//import imgta from '../../assets/LogoMatheus/LogoMatheus.png';
+//import imguser from '../../assets/LogoMatheus/Icons/user_icon2.svg';
 import './header.css'
-import api from '../../services/api';
+//import api from '../../services/api';
 import PageMenu from '../MenuLateral';
 
 function PageHeader(){

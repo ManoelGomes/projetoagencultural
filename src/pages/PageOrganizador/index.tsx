@@ -1,12 +1,12 @@
 //import axios from 'axios';
 import React, { useState, FormEvent } from 'react'
 import PageHeader from '../../components/Header';
-import PageMenu from '../../components/MenuLateral';
+//import PageMenu from '../../components/MenuLateral';
 import PageFooter from '../../components/Footer/footer';
 import PageTitulo from '../../components/Titulo';
 import api from '../../services/api';
 import './organizador.css'
-import Pagelogo from '../../components/logo';
+//import Pagelogo from '../../components/logo';
 
 function Pageorganizador(){
 

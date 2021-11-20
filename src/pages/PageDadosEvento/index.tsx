@@ -1,7 +1,7 @@
 import React  from 'react'
 import PageHeader from '../../components/Header';
 import './eventos.css'
-import PageMenu from '../../components/MenuLateral';
+//import PageMenu from '../../components/MenuLateral';
 import Form from 'react-bootstrap/Form';
 import PageTitulo from '../../components/Titulo';
 import PageFooter from '../../components/Footer/footer';

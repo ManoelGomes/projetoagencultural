@@ -2,7 +2,7 @@ import React from 'react'
 import PageHeader from '../../components/Header';
 import './Dadoseventos.css'
 //import imgarq from '../../assets/LogoMatheus/Icons/Web_(35).jpg'
-import PageMenu from '../../components/MenuLateral';
+//import PageMenu from '../../components/MenuLateral';
 import PageFooter from '../../components/Footer/footer';
 //import { string } from 'yup';
 import PageTitulo from '../../components/Titulo';

@@ -1,10 +1,10 @@
 //import { clear } from 'console';
 import React from 'react'
 import {Link} from 'react-router-dom'
-import imgHome from '../../assets/LogoMatheus/Icons/icons8-casa.svg'
-import imgEvento from '../../assets/LogoMatheus/Icons/calendar.svg'
-import imgCategoria from '../../assets/LogoMatheus/Icons/categoria_icon.png'
-import imgOrganizagor from '../../assets/LogoMatheus/Icons/organizador_icon.png'
+//import imgHome from '../../assets/LogoMatheus/Icons/icons8-casa.svg'
+//import imgEvento from '../../assets/LogoMatheus/Icons/calendar.svg'
+//import imgCategoria from '../../assets/LogoMatheus/Icons/categoria_icon.png'
+//import imgOrganizagor from '../../assets/LogoMatheus/Icons/organizador_icon.png'
 //import api from '../../services/api';
 // import { logout } from '../../services/auth';
 import imguser from '../../assets/LogoMatheus/Icons/user_icon2.svg';

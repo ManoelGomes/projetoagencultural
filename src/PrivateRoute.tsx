@@ -1,6 +1,6 @@
 import React from 'react'
 import {Route, Redirect} from 'react-router'
-import api from './services/api'
+//import api from './services/api'
 
 const PrivateRoute = (props:any) =>{
 
