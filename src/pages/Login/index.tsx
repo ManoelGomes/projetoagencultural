@@ -1,9 +1,9 @@
-import React/*, { FormEvent, useState }*/ from 'react';
-// import {useHistory} from 'react-router-dom';
+import React, { FormEvent, useState } from 'react';
+import {useHistory} from 'react-router-dom';
 import './login.css';
 // import '../../assets/styles/global.css';
 //import PageLongin from '../../components/PageLoginImg';
-// import api from '../../services/api';
+import api from '../../services/api';
 //import cookie from 'react-cookie'
 import imagem from '../../assets/LogoMatheus/LogoMatheus.png';
 import { LoginUsuario } from '../../components/FormularioLogin';

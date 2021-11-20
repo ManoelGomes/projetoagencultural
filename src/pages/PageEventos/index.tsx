@@ -14,9 +14,9 @@ function PageEventos(){
             <div>
                 <PageHeader />
             </div>
-            <div className="hh">
+            {/* <div className="hh">
                 <PageMenu />
-            </div>
+            </div> */}
             <div>
                 <PageTitulo title="Cadastrar Evento"/>
             </div>

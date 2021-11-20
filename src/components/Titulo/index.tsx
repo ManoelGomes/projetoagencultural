@@ -7,7 +7,7 @@ interface PageTituloProps{
 }
 const PageTitulo: React.FC<PageTituloProps> = ({title}) =>{
     return(
-        <h1 className="main_Titulo">{title}</h1>
+        <h1 className="main_titulo">{title}</h1>
     )
 }
 

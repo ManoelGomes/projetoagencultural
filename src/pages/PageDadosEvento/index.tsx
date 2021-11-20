@@ -13,9 +13,9 @@ function PageDadosEventos(){
             <div>
                 <PageHeader />
             </div>
-            <div className="hh">
+            {/* <div className="hh">
                 <PageMenu />
-            </div>
+            </div> */}
             <div>
                 <PageTitulo title="Evento"/>
             </div>

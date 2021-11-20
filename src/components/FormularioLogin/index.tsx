@@ -1,4 +1,4 @@
-import React,{ useState}from 'react';
+import React,{FormEvent, useState}from 'react';
 //import {Formik} from 'formik';
 import { NavLink, useHistory} from 'react-router-dom';
 //import { TextField } from '../TextField';
@@ -9,7 +9,7 @@ import Form from 'react-bootstrap/Form';
 //import InputGroup from 'react-bootstrap/InputGroup';
 //import Button from 'react-bootstrap/Button';
 //import FormControl from 'react-bootstrap/FormControl';
-// import api from '../../services/api';
+import api from '../../services/api';
 import './formulario.css';
 
 export const LoginUsuario = () =>{
@@ -18,20 +18,20 @@ export const LoginUsuario = () =>{
      const history = useHistory();
      
     // function handleSubmit(e:FormEvent) {
-    //     e.preventDefault();
-    //         api.post('/organizador/login',  {
-    //         email,
-    //         senha,
-    //         }).then(config => {
-    //                 localStorage.setItem('token', config.data.token)
-    //                 history.push('/Categorias') 
-    //         }).catch(() =>{
-    //                 alert('Usuário ou senha incorretos!')
-    //             }
-    //         )
-    // }
-    function pagina(){ 
-      history.push('/Categorias')
+    //   e.preventDefault();
+    //     api.post('/organizador/login',  {
+    //       email,
+    //       senha,
+    //       }).then(response => {
+    //         localStorage.setItem('token', response.data.token)         
+    //         history.push('/Agenda')  
+    //       }).catch(() =>{
+    //         alert('Usuário ou senha incorretos!')
+    //         }
+    //       )
+    //  }
+    function pagina(){
+      history.push('/Agenda')
     }
   return (
     <form noValidate  /*onSubmit={handleSubmit}*/ onSubmit={pagina} className="teste">

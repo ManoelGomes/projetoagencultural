@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital@1&family=Indie+Flower&family=Montagu+Slab:wght@300;600&family=Pacifico&display=swap');
+
 *{
     margin: 0;
     padding: 0; 
@@ -12,6 +14,13 @@ body{
     background-color: white;
     padding-bottom: 200px;
 }
+.main_evento2{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    padding-bottom: 200px;
+}
+
 @media(max-width:1150px){
     .main_evento{
         margin-left: 10px;
@@ -39,7 +48,7 @@ body{
     }
 }
 .main_h2_titulo{
-    font-family: "Karla", sans-serif;
+    font-family: "Karla";
     font-style: italic;
     margin-top: 90px;
     background-color: #023859;
@@ -162,7 +171,7 @@ body{
     margin-left: 25px;
     margin-bottom: 1px;
     font-size: 20px;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Montagu';
     margin-top: 10px;
     color:#0b74bb;
 }

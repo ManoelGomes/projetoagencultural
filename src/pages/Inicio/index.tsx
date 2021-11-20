@@ -10,9 +10,9 @@ function PageInicio() {
             <div>
                 <PageHeader />
             </div>
-            <div className="hh">
+            {/* <div className="hh">
                 <PageMenu /> 
-            </div>
+            </div> */}
             <main className="page_main3 page_main_top">  
                 <div>
                 <section >
