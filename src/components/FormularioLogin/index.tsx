@@ -31,7 +31,7 @@ export const LoginUsuario = () =>{
     //       )
     //  }
     function pagina(){
-      history.push('/Agenda')
+      history.push('/Categorias')
     }
   return (
     <form noValidate  /*onSubmit={handleSubmit}*/ onSubmit={pagina} className="teste">
