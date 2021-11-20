@@ -13,8 +13,8 @@ import Form from 'react-bootstrap/Form';
 import './formulario.css';
 
 export const LoginUsuario = () =>{
-    const [email, setEmail] = useState('');
-     const [senha, setSenha] = useState('');
+    // const [email, setEmail] = useState('');
+    //  const [senha, setSenha] = useState('');
      const history = useHistory();
      
     // function handleSubmit(e:FormEvent) {
@@ -31,7 +31,7 @@ export const LoginUsuario = () =>{
     //       )
     //  }
     function pagina(){
-      history.push('/Agenda')
+      history.push("/Agenda")
     }
   return (
     <form noValidate  /*onSubmit={handleSubmit}*/ onSubmit={pagina} className="teste">
@@ -46,8 +46,8 @@ export const LoginUsuario = () =>{
                     type="text"
                     placeholder="Email"
                     name="email" 
-                    value={email}
-                    onChange={(e) =>{setEmail (e.target.value)}}
+                    // value={email}
+                    // onChange={(e) =>{setEmail (e.target.value)}}
                   />
                 </Form.Group>
               </div>
@@ -58,8 +58,8 @@ export const LoginUsuario = () =>{
                 type="password"
                 placeholder="Senha"
                 name="senha"
-                value={senha}
-                onChange={(e) => {setSenha (e.target.value)}}
+                // value={senha}
+                // onChange={(e) => {setSenha (e.target.value)}}
                 />
             </Form.Group>
             </div>
