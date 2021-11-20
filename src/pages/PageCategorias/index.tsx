@@ -4,7 +4,7 @@ import './PageCategoria.css'
 //import PageMenu from '../../components/MenuLateral';
 import PageFooter from '../../components/Footer/footer';
 //import lixeira from '../../assets/LogoMatheus/Icons/lixeira.png';
-import api from '../../services/api';
+// import api from '../../services/api';
 //import Form from 'react-bootstrap/Form';
 import PageTitulo from '../../components/Titulo';
 //import Axios from 'axios';
