@@ -1,4 +1,4 @@
-import React, {  useState } from 'react'
+import React/*, {  useState }*/ from 'react'
 import PageHeader from '../../components/Header';
 import './PageCategoria.css'
 //import PageMenu from '../../components/MenuLateral';
@@ -10,19 +10,19 @@ import PageTitulo from '../../components/Titulo';
 //import Axios from 'axios';
 
 
-function handleCategoria({contentType}:any, {data}:any, {setResponse}:any){
+// function handleCategoria({contentType}:any, {data}:any, {setResponse}:any){
     
-    api.post('/categoria',{
-        data: data,
-        headers: {
-            'Content-Type': contentType
-        }
-    }).then(() => {
-        alert('Categoria criada com sucesso!');
-    }).catch(() => {
-        alert('Erro no cadastro!');
-    })
-}
+//     api.post('/categoria',{
+//         data: data,
+//         headers: {
+//             'Content-Type': contentType
+//         }
+//     }).then(() => {
+//         alert('Categoria criada com sucesso!');
+//     }).catch(() => {
+//         alert('Erro no cadastro!');
+//     })
+// }
 
 function PageCategorias(){
 
