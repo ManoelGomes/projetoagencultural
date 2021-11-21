@@ -1,6 +1,6 @@
 import React/*,{FormEvent, useState}*/from 'react';
 //import {Formik} from 'formik';
-import { NavLink} from 'react-router-dom';
+import { NavLink, useHistory} from 'react-router-dom';
 //import { TextField } from '../TextField';
 //import * as Yup from 'yup';
 //import FloatingLabel from 'react-bootstrap/Form';
@@ -15,7 +15,7 @@ import './formulario.css';
 export const LoginUsuario = () =>{
     // const [email, setEmail] = useState('');
     //  const [senha, setSenha] = useState('');
-     //const history = useHistory();
+     const history = useHistory();
      
     // function handleSubmit(e:FormEvent) {
     //   e.preventDefault();
@@ -30,11 +30,11 @@ export const LoginUsuario = () =>{
     //         }
     //       )
     //  }
-    // function pagina(){
-    //    history.push('/Agenda')
-    // }
+    function pagina(){
+       history.push("/Agenda")
+    }
   return (
-    <form noValidate  /*onSubmit={handleSubmit} onSubmit={pagina}*/ className="teste">
+    <form noValidate  /*onSubmit={handleSubmit}*/ onSubmit={pagina} className="teste">
           <div className=" form-row">
            </div>
             <div className="form-row">
@@ -64,8 +64,8 @@ export const LoginUsuario = () =>{
             </Form.Group>
             </div>
           </div>
-          {/* <button name="login" data-testid="form-btn" id="login" className="btn btn-block login-btn" type="submit">Login</button> */}
-          <NavLink to="/Agenda" className="btn btn-block login-btn">login</NavLink>
+          <button name="login" data-testid="form-btn" id="login" className="btn btn-block login-btn" type="submit">Login</button>
+          {/* <NavLink to="/Agenda" className="btn btn-block login-btn">login</NavLink> */}
           <NavLink to="/Criar">Criar Conta</NavLink>
         </form>
   );

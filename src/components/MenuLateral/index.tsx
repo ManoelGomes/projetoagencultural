@@ -1,6 +1,6 @@
 //import { clear } from 'console';
 import React from 'react'
-import {Link} from 'react-router-dom'
+import {Link, useHistory} from 'react-router-dom'
 //import imgHome from '../../assets/LogoMatheus/Icons/icons8-casa.svg'
 //import imgEvento from '../../assets/LogoMatheus/Icons/calendar.svg'
 //import imgCategoria from '../../assets/LogoMatheus/Icons/categoria_icon.png'
@@ -18,7 +18,7 @@ import  Button  from 'react-bootstrap/Button';
 
 function PageMenu(){
 
-    //const history = useHistory();
+    const history = useHistory();
 
     // function handleLogout(){
     //         api.post('organizador/logout', {
@@ -28,6 +28,9 @@ function PageMenu(){
     //             alert('Ocorreu um erro ao sair!');
     //         })
     //     }
+    function sair(){
+      history.push('/')
+    }
     return(
       
         <div>
@@ -40,8 +43,8 @@ function PageMenu(){
               <Link to="/Categorias"><li className="nav-item menu_color3">{/*<img src={imgCategoria} alt="inicio" className="menu_img "/>*/}Categorias</li></Link>
                <Link to="/organizador"><li className="nav-item menu_color4">{/*<img src={imgOrganizagor} alt="inicio" className="menu_img "/>*/}Organizador</li></Link>  
               </Nav>
-              <Form inline>
-                <Button variant="outline" className="header_top_button">Sair</Button>
+              <Form inline onSubmit={sair}>
+                <Button variant="outline" className="header_top_button" type="submit">Sair</Button>
                 <img src={imguser} alt="user" className="imgicon" />
               </Form>
             </Navbar.Collapse>
