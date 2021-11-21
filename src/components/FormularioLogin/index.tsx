@@ -30,11 +30,11 @@ export const LoginUsuario = () =>{
     //         }
     //       )
     //  }
-    function pagina(){
-       history.push('/Agenda')
-    }
+    // function pagina(){
+    //    history.push('/Agenda')
+    // }
   return (
-    <form noValidate  /*onSubmit={handleSubmit}*/ onSubmit={pagina} className="teste">
+    <form noValidate  /*onSubmit={handleSubmit} onSubmit={pagina}*/ className="teste">
           <div className=" form-row">
            </div>
             <div className="form-row">
@@ -64,7 +64,8 @@ export const LoginUsuario = () =>{
             </Form.Group>
             </div>
           </div>
-          <button name="login" data-testid="form-btn" id="login" className="btn btn-block login-btn" type="submit">Login</button>
+          {/* <button name="login" data-testid="form-btn" id="login" className="btn btn-block login-btn" type="submit">Login</button> */}
+          <NavLink to="/Agenda" className="btn btn-block login-btn">login</NavLink>
           <NavLink to="/Criar">Criar Conta</NavLink>
         </form>
   );
