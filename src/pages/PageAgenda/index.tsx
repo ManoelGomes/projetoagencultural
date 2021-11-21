@@ -16,7 +16,7 @@ import PageTitulo from '../../components/Titulo';
 import Lixeira from '../../assets/LogoMatheus/Icons/delete.png';
 import Mais from '../../assets/LogoMatheus/Icons/mais.png';
  
-export default class PageAgenda extends Component{
+function PageAgenda() {
     
   // componentDidMount(){
   //   const token = localStorage.getItem('token');
@@ -31,7 +31,7 @@ export default class PageAgenda extends Component{
   //   }
   
 
-  render(){
+
         return (
             <div>
                 <div>
@@ -74,5 +74,5 @@ export default class PageAgenda extends Component{
             
         )
     }
-  }
+  export default PageAgenda;
 
