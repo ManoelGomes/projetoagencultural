@@ -1,6 +1,6 @@
 import React/*,{FormEvent, useState}*/from 'react';
 //import {Formik} from 'formik';
-import { NavLink, useHistory} from 'react-router-dom';
+import { NavLink} from 'react-router-dom';
 //import { TextField } from '../TextField';
 //import * as Yup from 'yup';
 //import FloatingLabel from 'react-bootstrap/Form';
@@ -15,7 +15,7 @@ import './formulario.css';
 export const LoginUsuario = () =>{
     // const [email, setEmail] = useState('');
     //  const [senha, setSenha] = useState('');
-     const history = useHistory();
+     //const history = useHistory();
      
     // function handleSubmit(e:FormEvent) {
     //   e.preventDefault();
